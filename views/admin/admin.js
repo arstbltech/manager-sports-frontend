@@ -1,5 +1,5 @@
-// Usamos window para que sea accesible desde app.js
-window.Admin = {
+window.App = window.App || {};
+window.App.Admin = {
   template: `
     <div>
       <h1>Vista admin</h1>

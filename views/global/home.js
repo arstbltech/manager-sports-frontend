@@ -1,5 +1,6 @@
 // Usamos window para que sea accesible desde app.js
-window.HomeView = {
+window.App = window.App || {};
+window.App.HomeView = {
   template: `
     <div>
       <h2>Dashboard del Sistema</h2>
