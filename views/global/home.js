@@ -1,6 +1,4 @@
-// Usamos window para que sea accesible desde app.js
-window.App = window.App || {};
-window.App.HomeView = {
+export default {
   template: `
     <div>
       <h2>Dashboard del Sistema</h2>

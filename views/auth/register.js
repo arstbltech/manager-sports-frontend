@@ -1,6 +1,4 @@
-window.App = window.App || {};
-
-window.App.Register = {
+export default {
     template: `
         <div>
         register

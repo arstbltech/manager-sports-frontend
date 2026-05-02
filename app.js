@@ -1,17 +1,21 @@
-window.App = window.App || {};
+import Navbar from './components/navbar.js';
+import MainLayout from './layout/MainLayout.js';
+import Admin from './views/admin/admin.js';
+import Login from './views/auth/login.js';
+import Register from './views/auth/register.js';
+import HomeView from './views/global/home.js';
 
 const routes = [
   {
         path: '/',
-        component: window.App.MainLayout,
+        component: MainLayout,
         children: [
-            { path: '', component: window.App.HomeView },
-            { path: 'institutional', component: window.App.InstView }
+            { path: '', component: HomeView },
         ]
     },
-  { path: '/admin', component: window.App.Admin },
-  { path: '/login', component: window.App.Login },
-  { path: '/register', component: window.App.Register}
+  { path: '/admin', component: Admin },
+  { path: '/login', component: Login },
+  { path: '/register', component: Register}
 
 ];
 
@@ -29,7 +33,7 @@ const app = Vue.createApp({
 });
 
 //registro de componentes
-app.component('navbar-component', window.App.Navbar);
+app.component('navbar-component', Navbar);
 
 app.use(router);
 app.mount('#app');

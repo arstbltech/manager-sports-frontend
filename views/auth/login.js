@@ -1,6 +1,4 @@
-window.App = window.App || {};
-
-window.App.Login = {
+export default {
     template: `
         <div>
         login

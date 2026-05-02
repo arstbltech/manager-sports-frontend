@@ -1,6 +1,4 @@
-window.App = window.App || {};
-
-window.App.MainLayout = {
+export default {
     template: `
         <div>
             <navbar-component></navbar-component>

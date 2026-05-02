@@ -1,5 +1,4 @@
-window.App = window.App || {};
-window.App.Admin = {
+export default {
   template: `
     <div>
       <h1>Vista admin</h1>
