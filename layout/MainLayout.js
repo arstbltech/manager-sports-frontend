@@ -1,10 +1,11 @@
 export default {
     template: `
-        <div>
+    <div class="min-h-screen bg-white" style="font-family: 'Inter', sans-serif">
             <navbar-component></navbar-component>
-            <main class="container mx-auto p-4">
+            <main>
                 <router-view></router-view>
             </main>
-        </div>
+            <footer-component></footer-component>
+    </div>
     `
 };
