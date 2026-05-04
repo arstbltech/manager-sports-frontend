@@ -12,7 +12,10 @@ export default {
           </div>
 
           <h2 class="text-white mb-6" style="font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.03em;">
-            Gestión deportiva <span style="background: linear-gradient(90deg, #2563EB, #06B6D4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">sin complicaciones</span>
+            Tu Acceso Fácil y Seguro a Todos los Eventos Deportivos de <span style="color: #fffb00;">Ven</span>
+<span style="color: #0091ff;">ezu</span>
+<span style="color: #ff0000;">ela</span>
+
           </h2>
 
           <p class="text-slate-300 mb-14 max-w-2xl mx-auto" style="font-size: 1.125rem; line-height: 1.75">
