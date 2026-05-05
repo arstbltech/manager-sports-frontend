@@ -3,13 +3,15 @@ import { api } from "../../services/api.js"
 import { authService } from '../../services/authService.js';
 import adminSidebar from '../../components/admin/adminSidebar.js';
 import adminDashboard from '../../components/admin/tabs/adminDashboard.js';
-import adminEvents from '../../components/admin/tabs/adminEvents.js';
+import adminCreateEvents from '../../components/admin/tabs/adminCreateEvents.js';
+import adminManageEvents from "../../components/admin/tabs/adminManageEvents.js";
 
 export default {
     components: {
         adminSidebar,
         adminDashboard,
-        adminEvents,
+        adminCreateEvents,
+        adminManageEvents
     },
     
     template: `
@@ -88,7 +90,8 @@ export default {
                     <!-- ✅ Componentes dinámicos por tab -->
                     <template v-else>
                         <adminDashboard v-if="activeTab === 'dashboard'" :stats="stats" />
-                        <adminEvents v-if="activeTab === 'events'" />
+                        <adminCreateEvents v-if="activeTab === 'events-create'" />
+                        <adminManageEvents v-if="activeTab === 'events-manage'" />
                     </template>
                 </main>
             </div>
