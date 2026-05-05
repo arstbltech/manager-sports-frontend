@@ -48,7 +48,7 @@ class AuthService {
         localStorage.removeItem('token');
         localStorage.removeItem('user');
         localStorage.removeItem('rememberedEmail');
-        window.location.href = '/#/login';
+        window.location.href = '/#/login/admin';
     }
 
     getCurrentUser() {
