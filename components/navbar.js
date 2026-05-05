@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       menuOpen: false,
-      navItems: ["Eventos", "Cómo funciona"]
+      navItems: ["Eventos", "Cómo funciona", "Estadistica"]
     };
   },
   methods: {
