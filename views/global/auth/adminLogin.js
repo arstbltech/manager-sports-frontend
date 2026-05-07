@@ -1,5 +1,5 @@
 // login.js - Página de login con diseño del sistema
-import { authService } from '../../services/authService.js';
+import { authService } from '../../../services/authService.js';
 
 export default {
     template: `

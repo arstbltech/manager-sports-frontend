@@ -2,10 +2,10 @@ import { authService } from './services/authService.js';
 import navbar from './components/navbar.js';
 import MainLayout from './layout/MainLayout.js';
 import Admin from './views/admin/admin.js';
-import Login from './views/auth/login.js';
-import Register from './views/auth/register.js';
+import Login from './views/global/auth/login.js';
+import Register from './views/global/auth/register.js';
 import HomeView from './views/global/home.js';
-import AdminLogin from './views/auth/adminLogin.js';
+import AdminLogin from './views/global/auth/adminLogin.js';
 
 // Componentes de imágenes
 import logo from './components/images/logo.js';
